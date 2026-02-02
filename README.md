@@ -1,10 +1,28 @@
-
 # RL Routing – Real-World Fine-Tuning
 
+
+
 This repository implements an **online fine-tuning module** for a reinforcement learning–based routing protocol.
+
 The goal is to transfer a **pre-trained Behavioral Cloning (BC) policy** into a real-world communication testbed using **Proximal Policy Optimization (PPO)**.
 
----
+
+## 🛠 Pre-Training (Optional)
+
+
+
+We have provided a pre-trained model (`bc_model.pt`) in the root directory, so **you typically do NOT need to run this step.**
+
+
+
+However, if you wish to re-train the behavioral cloning model from scratch using the BackPressure expert (Offline Phase), you can run: ```bash
+python pretrain_bc.py```
+
+Output: Generates a new bc_model.pt in the root directory.
+
+Next Step: Proceed to Online Fine-Tuning.
+
+
 
 ## 📂 Repository Structure
 
