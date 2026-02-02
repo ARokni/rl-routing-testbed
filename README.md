@@ -136,4 +136,25 @@ To deploy on real hardware:
 
    * Produces the same **observation shape**
    * Accepts actions in `MultiDiscrete([7, 4, 4])` format
+     
+
+## 📚 Reference
+
+If you use this codebase or build upon it in your work, please consider citing the following paper:
+
+**Safe and Reliable Deep Reinforcement Learning for Covert Routing**
+Amirhossein Roknilamouki, Fikadu T. Dagefu, Eylem Ekici, Brian Kim, Justin Kong, Terrence Moore, Yin Sun, Ness B. Shroff
+*IEEE International Conference on Mobile Ad-Hoc and Smart Systems (MASS), 2025*
+
+### BibTeX
+
+```bibtex
+@inproceedings{roknilamouki2025safe,
+  title     = {Safe and Reliable Deep Reinforcement Learning for Covert Routing},
+  author    = {Roknilamouki, Amirhossein and Dagefu, Fikadu T and Ekici, Eylem and Kim, Brian and Kong, Justin and Moore, Terrence and Sun, Yin and Shroff, Ness B},
+  booktitle = {2025 IEEE 22nd International Conference on Mobile Ad-Hoc and Smart Systems (MASS)},
+  pages     = {37--44},
+  year      = {2025},
+  organization = {IEEE}
+}
 
